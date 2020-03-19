@@ -15,7 +15,7 @@ namespace PRACTICA_REPOSITORIO.Controllers
     {
        
         // private IRepositorioCliente repositorio = new FakeRepositorioCliente();
-       private IRepositorioCliente repositorio = new EFRepositorioCliente();
+       private IRepositorioCliente repositorio = new EFRepositorioCliente() ;
 
         public ClientesController(IRepositorioCliente repositorio)
         {
